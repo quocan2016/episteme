@@ -1,0 +1,9 @@
+.video {
+   object-fit: contain;
+   border-radius: inherit;
+   object-position: 0px;
+}
+
+.backgroundImage {
+   border-radius: inherit;
+}

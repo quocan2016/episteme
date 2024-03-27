@@ -1,0 +1,18 @@
+@keyframes Spin {
+   from {
+      transform: rotate(0);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.loading-spin {
+   width: 24px;
+   height: 24px;
+   border-radius: 100%;
+   border: 2px solid transparent;
+   border-bottom-color: #4949ee;
+   background-color: transparent;
+   animation: Spin linear 1s infinite;
+}

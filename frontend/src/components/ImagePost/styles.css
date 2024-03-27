@@ -1,0 +1,27 @@
+.image-post {
+  margin: 0.4em 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.image-post--stretched {
+}
+
+.image-post--withBackground {
+  padding: 15px;
+}
+
+.image-post--withBorder {
+  border: 1px solid #ccc;
+}
+
+.image-post--withBackground .image-post__img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.image-post__img {
+  max-width: 100%;
+  vertical-align: bottom;
+  display: block;
+}

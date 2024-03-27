@@ -1,0 +1,78 @@
+/* Comment Box */
+.comment-box__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.comment-box__form-group {
+  display: flex;
+  gap: 50px;
+  flex-flow: row nowrap;
+}
+
+.form-group__avatar {
+  width: 56px;
+  height: 56px;
+}
+
+.form-group__input-container {
+  /* max-width: 600px; */
+  /* width: 100%; */
+  border: none;
+}
+
+.form-group__input-container:focus {
+  border: none;
+}
+
+.form-group__input {
+  border: none;
+}
+
+.comment-box__buttons {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Reply */
+.reply-box__container {
+  display: flex;
+  gap: 30px;
+}
+
+.reply__info,
+.reply-info__bottom {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 8px;
+  width: 80px;
+}
+
+.reply-info__avatar {
+}
+
+.reply-info__bottom {
+}
+
+.reply-info__username {
+}
+
+.reply-info__create-date {
+}
+
+.reply-content__container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+}
+
+.reply__content {
+}
+
+.reply__action {
+}
